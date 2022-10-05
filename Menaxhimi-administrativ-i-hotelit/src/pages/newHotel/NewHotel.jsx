@@ -57,7 +57,7 @@ const NewHotel = () => {
       const newhotel = {
         ...info,
         rooms,
-        photos: list,
+
       };
 
       await axios.post("/Hotels", newhotel);
