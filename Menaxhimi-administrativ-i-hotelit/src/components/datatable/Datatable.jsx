@@ -64,7 +64,7 @@ const Datatable = ({ columns }) => {
   ];
   return (
     <div className="datatable">
-      <div className="datatableTitle">
+      <div className="datatableTitle" style={{ textTransform: 'capitalize' }}>
         {path}
         <Link to={`/${path}/new`} className="link">
           Add New
